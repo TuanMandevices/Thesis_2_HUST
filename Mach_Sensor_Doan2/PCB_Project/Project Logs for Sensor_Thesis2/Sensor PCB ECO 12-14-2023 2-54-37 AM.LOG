@@ -1,0 +1,52 @@
+Removed Pin From Net: NetName=SRN Pin=C28-2
+Removed Pin From Net: NetName=SRN Pin=C29-1
+Removed Pin From Net: NetName=SRN Pin=H1-2
+Removed Pin From Net: NetName=GND Pin=IC3-1
+Removed Pin From Net: NetName=GND Pin=IC3-2
+Removed Pin From Net: NetName=GND Pin=IC3-3
+Removed Pin From Net: NetName=GND Pin=IC3-4
+Removed Pin From Net: NetName=SRN Pin=P4-1
+Removed Pin From Net: NetName=GND Pin=P4-2
+Removed Pin From Net: NetName=SRN Pin=R12-2
+Removed Pin From Net: NetName=SRN Pin=U4-1
+Removed Member From Class: ClassName=U_MPPT Member=C12
+Removed Member From Class: ClassName=U_MPPT Member=C13
+Removed Member From Class: ClassName=U_MPPT Member=IC2
+Removed Member From Class: ClassName=U_MPPT Member=IC3
+Removed Member From Class: ClassName=U_Sensor Member=P4
+Removed Member From Class: ClassName=U_MPPT Member=R12
+Removed Member From Class: ClassName=U_MPPT Member=R13
+Change Component Description : Designator=U3 Old Description=ARM® Cortex®-M3 STM32F1 Microcontroller IC 32-Bit 72MHz 64KB (64K x 8) FLASH 48-LQFP (7x7) New Description=ARM® Cortex®-M3 STM32F1 Microcontroller IC 32-Bit 72MHz 64KB (64K x 8) FLASH 48-LQFP (7x7)
+
+Added Component: Designator=J2(CON2)
+Add component (AddParameter): Name = "ComponentLink1 Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2 Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/em/datasheet/6130xx143121.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created by"; Value = "Karrer Zheng"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created Date"; Value = "29 March 2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "W¨¹rth Elektronik eiSos GmbH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NoPins"; Value = "02"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "partNo"; Value = "613002143121"; VariantName = "[No Variations]"
+Added Component: Designator=J3(JP2-CLOSED)
+Add component (AddParameter): Name = "ComponentLink1 Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2 Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/em/datasheet/6130xx143121.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created by"; Value = "Karrer Zheng"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created Date"; Value = "29 March 2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "W¨¹rth Elektronik eiSos GmbH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NoPins"; Value = "02"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "partNo"; Value = "613002143121"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=J2-2
+Added Pin To Net: NetName=SRN Pin=J3-1
+Added Pin To Net: NetName=VBAT Pin=C28-2
+Added Pin To Net: NetName=VBAT Pin=C29-1
+Added Pin To Net: NetName=VBAT Pin=J2-1
+Added Pin To Net: NetName=VBAT Pin=J3-2
+Added Pin To Net: NetName=VBAT Pin=U4-1
+Added Net: Name=VBAT
+Added Member To Class: ClassName=U_MPPT Member=Component J2 JP2
+Added Member To Class: ClassName=U_MPPT Member=Component J3 JP2
+Added Room: Name=U_MPPT
+Added Room: Name=U_Sensor

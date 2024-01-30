@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"thesis_2\startup_stm32f103xb.o"
+"thesis_2\main.o"
+"thesis_2\stm32f1xx_it.o"
+"thesis_2\stm32f1xx_hal_msp.o"
+"thesis_2\stm32f1xx_hal_gpio_ex.o"
+"thesis_2\stm32f1xx_hal_i2c.o"
+"thesis_2\stm32f1xx_hal.o"
+"thesis_2\stm32f1xx_hal_rcc.o"
+"thesis_2\stm32f1xx_hal_rcc_ex.o"
+"thesis_2\stm32f1xx_hal_gpio.o"
+"thesis_2\stm32f1xx_hal_dma.o"
+"thesis_2\stm32f1xx_hal_cortex.o"
+"thesis_2\stm32f1xx_hal_pwr.o"
+"thesis_2\stm32f1xx_hal_flash.o"
+"thesis_2\stm32f1xx_hal_flash_ex.o"
+"thesis_2\stm32f1xx_hal_exti.o"
+"thesis_2\stm32f1xx_hal_spi.o"
+"thesis_2\stm32f1xx_hal_tim.o"
+"thesis_2\stm32f1xx_hal_tim_ex.o"
+"thesis_2\stm32f1xx_hal_uart.o"
+"thesis_2\system_stm32f1xx.o"
+"thesis_2\my_nrf24.o"
+"thesis_2\anglas_ina226.o"
+--strict --scatter "Thesis_2\Thesis_2.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Thesis_2.map" -o Thesis_2\Thesis_2.axf
